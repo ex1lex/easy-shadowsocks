@@ -11,7 +11,7 @@ sudo apt install shadowsocks-libev
 {
 	"server":"SERVER_IP",
 	"mode":"tcp_and_udp",
-	"server_port":*SERVER_PORT*,
+	"server_port":SERVER_PORT,
 	"local_port":1080,
 	"password":"SERVER_PASSWORD",
 	"timeout":86400,
